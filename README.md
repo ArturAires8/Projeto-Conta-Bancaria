@@ -1,7 +1,7 @@
 Documentação do Projeto "Conta Bancária"
 
 Este documento explica detalhadamente as funcionalidades e a estrutura do projeto "Conta Bancária". O projeto é desenvolvido em Java e aplica conceitos de Orientação a Objetos como abstração, encapsulamento, herança e polimorfismo. Ele simula um sistema de gestão bancária com operações de contas.
-
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 1. Estrutura do Projeto
 
 1.1 Classes Principais
@@ -45,7 +45,7 @@ Exemplo:
 
 ContaCorrente conta1 = new ContaCorrente(123, "João", 500.0);
 ContaPoupanca conta2 = new ContaPoupanca(456, "Maria", 1000.0);
-
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 2. Funcionalidades
 
 2.1 Criar Contas
@@ -71,7 +71,7 @@ Permite transferir dinheiro de uma conta para outra, verificando o saldo suficie
 Exemplo:
 
 conta1.transferir(150.0, conta2); // Saldo da conta1: 450.0, conta2: 1150.0
-
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 3. Detalhes de Implementação
 
 3.1 Encapsulamento
@@ -109,7 +109,7 @@ Exemplo:
 
 Conta conta = new ContaCorrente(123, "João", 500.0);
 conta.depositar(100.0);
-
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 4. Testes e Resultados
 
 A classe principal (Main) inclui casos de teste para validar cada funcionalidade. Os resultados são impressos no console, mostrando o saldo atualizado após cada operação.
@@ -119,7 +119,7 @@ Exemplo de Saída no Console:
 Depósito de 200.0 realizado com sucesso. Saldo atual: 700.0
 Saque de 100.0 realizado com sucesso. Saldo atual: 600.0
 Transferência de 150.0 realizada com sucesso. Saldo atual da conta1: 450.0, conta2: 1150.0
-
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 5. Melhorias Futuras
 
 Implementar interface gráfica para interação com usuários.
@@ -127,7 +127,7 @@ Implementar interface gráfica para interação com usuários.
 Adicionar persistência de dados usando um banco de dados.
 
 Incluir operações avançadas como empréstimos e simulação de rendimentos.
-
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 6. Conclusão
 O projeto "Conta Bancária" é uma excelente aplicação prática dos conceitos de Orientação a Objetos em Java, cobrindo funcionalidades essenciais de um sistema bancário. Ele pode ser expandido para incluir novos recursos e tecnologias, como bancos de dados e aplicações web.
 
